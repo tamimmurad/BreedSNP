@@ -95,5 +95,5 @@ Run the script 'sim_popgen' with an environment with python installation (v 3.9.
 
 
 
-![Alt text]/Screenshot from 2023-03-19 13-11-16.png
+![image]/Screenshot from 2023-03-19 13-11-16.png
 
