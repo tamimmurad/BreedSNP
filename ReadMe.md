@@ -90,6 +90,7 @@ Run the script 'sim_popgen' with an environment with python installation (v 3.9.
 
 3- A plot is generated in the canvas with MAF for every SNP for both the initial population and the 
     last possible generation.
+    
 4- The output file are written in the same directory. PED, LOG, MAP and FRQ files can be found for both
     generations.
 
