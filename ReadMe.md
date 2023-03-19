@@ -93,7 +93,9 @@ Run the script 'sim_popgen' with an environment with python installation (v 3.9.
 4- The output file are written in the same directory. PED, LOG, MAP and FRQ files can be found for both
     generations.
 
+![Screenshot from 2023-03-19 13-11-16](https://user-images.githubusercontent.com/112623955/226174981-daa2ce94-fc7c-4920-b643-e0260a80fc6a.png)
+
+![Screenshot from 2023-03-19 13-11-47](https://user-images.githubusercontent.com/112623955/226174987-44d1817c-97a3-4a2e-a63b-a1f7e29aa88b.png)
 
 
-![My Image](Screenshot from 2023-03-19 13-11-16.png)
 
