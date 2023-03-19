@@ -1,8 +1,8 @@
-#Introduction
+##Introduction
 
 This program simulates a population with SNP data, for the purpose of use in a genetic association study, using the Python programming language. The user can set parameters including the number of individuals to simulate, number of generations to simulate, the probability of breeding. The program outputs a .ped and a .map file that can be used in subsequent genetic association analysis.
 
-#Required packages
+##Required packages
 This program requires the following packages to be installed:
 
 pandas
@@ -11,7 +11,7 @@ matplotlib
 tkinter
 Also, the program requires PLINK installations (PLINK v1.90b6.21) as it passes bash commands with bash version 5.0.17(1).
 
-#Functions
+##Functions
     1- add_sex(pop): takes a population and changes the sex of the individuals to males and females 
     with a uniform distribution of P(m)=P(f)=0.5.
     2- offspring(pop,genTag,ID, indM, indF) takes a population as a dataframe, new generation tag,   
@@ -31,7 +31,7 @@ Also, the program requires PLINK installations (PLINK v1.90b6.21) as it passes b
     SNP. The MAP file contains information on the chromosomal position of each SNP. Also, it uses 
     Plink to perform frequency analysis and produce a statistics file.
 
-#GUI Functions:
+##GUI Functions:
 
     1- Function runSimulation(): used as the function of the button 'Run' to perform the simulations
     and plot the results. The function execute plink bash commands to run the simulation. Then, it 
@@ -41,7 +41,7 @@ Also, the program requires PLINK installations (PLINK v1.90b6.21) as it passes b
     2- Function: select_file(): A function for the 'Select . sim file' to capture the path of the 
     simulation parameters file.
 
-#Inputs
+##Inputs
 This tool requires the following inputs from the user:
 
 1- Number of control individuals.
@@ -52,7 +52,7 @@ This tool requires the following inputs from the user:
 6- Simulation parameter file (.sim) given in the plink format.
  https://zzz.bwh.harvard.edu/plink/simulate.shtml
  
-#Outputs
+##Outputs
 This tool outputs the following files:
 
 Two .ped files containing the simulated and last resulting generation individual SNPs.
@@ -61,7 +61,7 @@ Two .frq files containing MAF statistiscs for both generations.
 Two .log files from running plink on both generations.
 A plot of SNPs and MAF for both generations on the canvas.
 
-#Useage:
+##Useage:
 Run the script 'sim_popgen' with an environment with python installation (v 3.9.13) with bash command:
          'python sim_popgen.py'
 1- The tool uses GUI to prompt the user for the input parameters and .sim (plink parameters file).
